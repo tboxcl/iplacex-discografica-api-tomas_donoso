@@ -9,7 +9,7 @@ RUN gradle clean build -x test
 
 
 # Stage 2: Ejecución de la aplicación
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
